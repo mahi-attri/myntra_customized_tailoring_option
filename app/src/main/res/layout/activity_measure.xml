@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeasureActivity">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#F13AB1"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/arrow" />
+
+        <TextView
+            android:id="@+id/measure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/measure"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="30dp"
+            android:textSize="20sp"
+            android:textColor="#1E1E1E"/>
+
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="870dp"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/measure1"/>
+
+        <EditText
+            android:id="@+id/bust"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bust"
+            android:layout_marginTop="40dp"
+            android:background="#80D9D9D9"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/frontlength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/frontlength"
+            android:layout_marginTop="110dp"
+            android:background="#80D9D9D9"
+            android:padding="10dp"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/fitWaist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/to_fit_waist"
+            android:layout_marginTop="170dp"
+            android:background="#80D9D9D9"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/waist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/waist"
+            android:layout_marginTop="230dp"
+            android:background="#80D9D9D9"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/hips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hips"
+            android:layout_marginTop="300dp"
+            android:background="#80D9D9D9"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/across_shoulder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/across_shoulder"
+            android:layout_marginTop="370dp"
+            android:background="#80D9D9D9"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/outseam_length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/outseam_length"
+            android:layout_marginTop="440dp"
+            android:background="#80D9D9D9"
+            android:padding="10dp"
+            android:enabled="false"/>
+
+
+        <EditText
+            android:id="@+id/inseam_length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inseam_length"
+            android:layout_marginTop="510dp"
+            android:background="#80D9D9D9"
+            android:padding="10dp"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/comments"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:hint="@string/comments"
+            android:layout_marginTop="580dp"
+            android:background="#80D9D9D9"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guide"
+            android:layout_marginTop="710dp"
+            android:layout_marginStart="290dp"
+            android:textColor="#80E72744"/>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="730dp"
+            android:text="@string/save"
+            android:textColor="#1E1E1E"
+            android:backgroundTint="#EDE7D7"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="730dp"
+            android:text="@string/confirm"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#80E72744"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Customized_Tailoring</string>
+    <string name="libas">Libas</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="custom">Customized Tailoring</string>
+    <string name="cost"><b>Additional Cost \n ₹100</b></string>
+    <string name="ss">ss</string>
+    <string name="measure"><b>Enter Your Measurements</b></string>
+    <string name="measure1">Please provide your measurements for a perfect fit</string>
+    <string name="bust">Bust(in)*</string>
+    <string name="frontlength">13.5 (FrontLength(in))</string>
+    <string name="to_fit_waist">To Fit Waist (in)*</string>
+    <string name="waist">Waist (in)*</string>
+    <string name="hips">Hips (in)*</string>
+    <string name="across_shoulder">Across Shoulder (in)*</string>
+    <string name="outseam_length">36.0 (Outseam Length (in))</string>
+    <string name="inseam_length">25.0 (Inseam Length (in))</string>
+    <string name="comments"> Additional Comments: \n \n Any specific instructions or details</string>
+    <string name="guide"><b>View Size Guide</b></string>
+    <string name="save"><b>Save</b></string>
+    <string name="confirm"><b>Confirm</b></string>
+
+
+
+
+
+</resources>
